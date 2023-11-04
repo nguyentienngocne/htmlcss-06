@@ -1,0 +1,76 @@
+@use "../base/variables" as var;
+
+.works {
+    margin-top: 140px;
+    padding: 86px 0;
+    background-color: var.$primary-color;
+
+    &-top {
+        display: flex;
+        align-items: center;
+        gap: 0 160px;
+    }
+
+    &-heading {
+        max-width: 468px;
+        font-size: 5.6rem;
+        font-weight: 500;
+        line-height: calc(66 / 56);
+        color: #fff;
+    }
+
+    &-desc {
+        max-width: 370px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    &-bottom {
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+
+        .works-card {
+            padding: 24px 24px 24px 34px;
+            background-color: #ffffff;
+            display: flex;
+            align-items: center;
+
+            .card-title {
+                margin-bottom: 10px;
+                color: var.$black-color;
+                font-size: 3.2rem;
+                font-weight: 500;
+                line-height: 4rem; /* 125% */
+                letter-spacing: -0.128rem;
+            }
+
+            .card-desc {
+                margin-bottom: 20px;
+                color: var.$gray-color;
+                font-size: 1.6rem;
+                font-weight: 400;
+                line-height: 2.3rem; /* 143.75% */
+            }
+
+            .card-link {
+                color: var.$black-color;
+                font-size: 1.8rem;
+                font-weight: 700;
+                line-height: 3rem; /* 166.667% */
+                text-decoration-line: underline;
+            }
+        }
+    }
+
+    &-btn {
+        margin-top: 80px;
+        background-color: #ffffff;
+        color: var.$black-color;
+    }
+
+    &-action {
+        display: flex;
+        justify-content: center;
+    }
+}
