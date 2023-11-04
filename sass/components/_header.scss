@@ -49,4 +49,7 @@
 .navbar-link {
     padding: 8px 21px;
     color: var.$gray-color;
+    &:hover {
+        text-shadow: 1px 1px #ccc;
+    }
 }

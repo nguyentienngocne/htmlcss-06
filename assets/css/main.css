@@ -1007,6 +1007,9 @@ button {
   font-weight: 700;
   line-height: 3rem; /* 166.667% */
 }
+.btn:hover {
+  opacity: 0.9;
+}
 
 .header {
   background-color: #fbfaff;
@@ -1057,6 +1060,9 @@ button {
 .navbar-link {
   padding: 8px 21px;
   color: #51586a;
+}
+.navbar-link:hover {
+  text-shadow: 1px 1px #ccc;
 }
 
 .hero {
@@ -1146,6 +1152,48 @@ button {
   position: absolute;
   bottom: 0;
   right: -170px;
+}
+
+.trusted {
+  margin-top: 100px;
+}
+
+.trusted-container {
+  display: flex;
+  align-items: center;
+  gap: 0 80px;
+}
+
+.trusted-content {
+  max-width: 352px;
+  position: relative;
+}
+
+.trusted-heading {
+  margin-left: 100px;
+  max-width: 253px;
+  color: #080415;
+  font-size: 4.2rem;
+  font-weight: 500;
+  line-height: 5rem; /* 119.048% */
+  letter-spacing: -0.168rem;
+}
+.trusted-heading::before {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  display: inline-block;
+  content: "";
+  width: 86px;
+  height: 2px;
+  background: #5d3bee;
+}
+
+.trusted-media {
+  max-width: 713px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 36px 70px;
 }
 
 /*# sourceMappingURL=main.css.map */

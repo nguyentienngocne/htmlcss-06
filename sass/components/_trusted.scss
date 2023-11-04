@@ -1,0 +1,44 @@
+@use "../base/variables" as var;
+
+.trusted {
+    margin-top: 100px;
+}
+
+.trusted-container {
+    display: flex;
+    align-items: center;
+    gap: 0 80px;
+}
+
+.trusted-content {
+    max-width: 352px;
+    position: relative;
+}
+
+.trusted-heading {
+    margin-left: 100px;
+    max-width: 253px;
+    color: var.$black-color;
+    font-size: 4.2rem;
+    font-weight: 500;
+    line-height: 5rem; /* 119.048% */
+    letter-spacing: -0.168rem;
+
+    &::before {
+        position: absolute;
+        top: 20px;
+        left: 0;
+        display: inline-block;
+        content: "";
+        width: 86px;
+        height: 2px;
+        background: var.$primary-color;
+    }
+}
+
+.trusted-media {
+    max-width: 713px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 36px 70px;
+}

@@ -43,4 +43,7 @@ button {
     color: #fdfdfd;
     font-weight: 700;
     line-height: 3rem; /* 166.667% */
+    &:hover {
+        opacity: 0.9;
+    }
 }
