@@ -1,0 +1,83 @@
+@use "../base/variables" as var;
+
+.hero {
+    margin-top: 44px;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    gap: 0 156px;
+}
+
+.hero-media {
+    position: relative;
+}
+
+.media-decor {
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    left: -214px;
+}
+
+.hero-content {
+    position: relative;
+    margin-top: 80px;
+}
+
+.hero-heading {
+    margin-bottom: 20px;
+    color: var.$black-color;
+    font-size: 8rem;
+    font-weight: 500;
+    line-height: 7.6rem; /* 95% */
+}
+
+.hero-desc {
+    margin-bottom: 50px;
+    max-width: 370px;
+}
+
+.hero-action {
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+    margin-bottom: 104px;
+}
+
+.hero-link {
+    color: var.$black-color;
+    font-weight: 700;
+    line-height: 3rem; /* 166.667% */
+    text-decoration-line: underline;
+}
+
+.hero-social {
+    display: flex;
+    align-items: center;
+}
+
+.social-text {
+    margin-right: 15px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: calc(30 / 16);
+}
+
+.social-img {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(8, 4, 21, 0.1);
+    border-radius: 50%;
+}
+
+.content-decor {
+    position: absolute;
+    bottom: 0;
+    right: -200px;
+}
