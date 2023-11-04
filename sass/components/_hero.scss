@@ -5,6 +5,7 @@
 }
 
 .hero-container {
+    position: relative;
     display: flex;
     align-items: center;
     gap: 0 156px;
@@ -14,14 +15,20 @@
     position: relative;
 }
 
+.hero-img {
+    position: relative;
+    z-index: 2;
+}
+
 .media-decor {
-    z-index: -1;
+    z-index: 1;
     position: absolute;
     bottom: 0;
     left: -214px;
 }
 
 .hero-content {
+    height: 100%;
     position: relative;
     margin-top: 80px;
 }
@@ -79,5 +86,5 @@
 .content-decor {
     position: absolute;
     bottom: 0;
-    right: -200px;
+    right: -170px;
 }

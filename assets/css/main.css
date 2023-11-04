@@ -978,6 +978,7 @@ html {
 }
 
 body {
+  background: rgb(251, 250, 255);
   font-family: "DM Sans", sans-serif;
   font-size: 1.8rem;
   color: #51586a;
@@ -1005,6 +1006,10 @@ button {
   color: #fdfdfd;
   font-weight: 700;
   line-height: 3rem; /* 166.667% */
+}
+
+.header {
+  background-color: #fbfaff;
 }
 
 .header-container {
@@ -1059,6 +1064,7 @@ button {
 }
 
 .hero-container {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 0 156px;
@@ -1068,14 +1074,20 @@ button {
   position: relative;
 }
 
+.hero-img {
+  position: relative;
+  z-index: 2;
+}
+
 .media-decor {
-  z-index: -1;
+  z-index: 1;
   position: absolute;
   bottom: 0;
   left: -214px;
 }
 
 .hero-content {
+  height: 100%;
   position: relative;
   margin-top: 80px;
 }
@@ -1133,7 +1145,7 @@ button {
 .content-decor {
   position: absolute;
   bottom: 0;
-  right: -200px;
+  right: -170px;
 }
 
 /*# sourceMappingURL=main.css.map */
