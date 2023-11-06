@@ -1,0 +1,62 @@
+@use "../base/variables" as var;
+
+.faq {
+    margin-top: 95px;
+
+    &-container {
+        max-width: 86.32%;
+
+        .faq-heading {
+            max-width: 55%;
+            color: var.$black-color;
+            font-size: 5.6rem;
+            font-weight: 500;
+            line-height: 6.6rem; /* 117.857% */
+        }
+    }
+
+    &-item {
+        margin-top: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 2px solid #08182f;
+        color: var.$black-color;
+    }
+
+    &-title {
+        color: var.$black-color;
+        font-size: 3.2rem;
+        font-weight: 500;
+        line-height: 4rem; /* 125% */
+        letter-spacing: -0.128rem;
+    }
+
+    &-desc {
+        max-width: 487px;
+        margin: 23px 0;
+    }
+
+    .item-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border: 2px solid rgba(22, 26, 28, 0.2);
+
+        border-radius: 50%;
+    }
+
+    .faq-item--check {
+        border-bottom: 2px solid var.$primary-color;
+
+        .faq-title {
+            color: var.$primary-color;
+        }
+
+        .item-right {
+            border-color: rgba(var.$primary-color, 0.2);
+        }
+    }
+}

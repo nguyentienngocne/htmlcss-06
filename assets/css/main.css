@@ -1369,7 +1369,7 @@ button {
 }
 
 .review {
-  margin-top: 150px;
+  padding: 150px 0 74px;
 }
 .review-container {
   max-width: 58%;
@@ -1426,10 +1426,64 @@ button {
   border-radius: 50%;
   background-color: rgba(8, 4, 21, 0.2);
 }
+.review-dots .dot:hover {
+  background: #5d3bee;
+}
 .review-dots .dot-active {
   width: 16x;
   height: 16px;
   background-color: #5d3bee;
+}
+
+.faq {
+  margin-top: 95px;
+}
+.faq-container {
+  max-width: 86.32%;
+}
+.faq-container .faq-heading {
+  max-width: 55%;
+  color: #080415;
+  font-size: 5.6rem;
+  font-weight: 500;
+  line-height: 6.6rem; /* 117.857% */
+}
+.faq-item {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #08182f;
+  color: #080415;
+}
+.faq-title {
+  color: #080415;
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 4rem; /* 125% */
+  letter-spacing: -0.128rem;
+}
+.faq-desc {
+  max-width: 487px;
+  margin: 23px 0;
+}
+.faq .item-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 2px solid rgba(22, 26, 28, 0.2);
+  border-radius: 50%;
+}
+.faq .faq-item--check {
+  border-bottom: 2px solid #5d3bee;
+}
+.faq .faq-item--check .faq-title {
+  color: #5d3bee;
+}
+.faq .faq-item--check .item-right {
+  border-color: rgba(93, 59, 238, 0.2);
 }
 
 /*# sourceMappingURL=main.css.map */
