@@ -1,0 +1,75 @@
+@use "../base/variables" as var;
+
+.review {
+    margin-top: 150px;
+
+    &-container {
+        max-width: 58%;
+        margin: 0 auto;
+        text-align: center;
+
+        .review-heading {
+            margin-bottom: 20px;
+            color: var.$black-color;
+            font-size: 5.6rem;
+            font-weight: 500;
+            line-height: 6.6rem; /* 117.857% */
+        }
+
+        .review-desc {
+            margin: 0 auto;
+            max-width: 570px;
+        }
+
+        .quote {
+            margin-top: 60px;
+            color: var.$gray-color;
+            font-size: 2.4rem;
+            font-weight: 400;
+            line-height: 4rem; /* 166.667% */
+        }
+
+        .reviewer {
+            margin-top: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0 16px;
+
+            &-name {
+                color: var.$black-color;
+                font-size: 3rem;
+                font-weight: 500;
+                line-height: 4rem; /* 133.333% */
+            }
+        }
+
+        .reviewer-workplace {
+            color: var.$gray-color;
+            font-size: 1.6rem;
+            font-weight: 400;
+            line-height: 2.9rem; /* 181.25% */
+        }
+    }
+
+    &-dots {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0 15px;
+
+        .dot {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background-color: rgba(8, 4, 21, 0.2);
+        }
+
+        .dot-active {
+            width: 16x;
+            height: 16px;
+            background-color: var.$primary-color;
+        }
+    }
+}

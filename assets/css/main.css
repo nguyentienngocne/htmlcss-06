@@ -1368,4 +1368,68 @@ button {
   color: #51586a;
 }
 
+.review {
+  margin-top: 150px;
+}
+.review-container {
+  max-width: 58%;
+  margin: 0 auto;
+  text-align: center;
+}
+.review-container .review-heading {
+  margin-bottom: 20px;
+  color: #080415;
+  font-size: 5.6rem;
+  font-weight: 500;
+  line-height: 6.6rem; /* 117.857% */
+}
+.review-container .review-desc {
+  margin: 0 auto;
+  max-width: 570px;
+}
+.review-container .quote {
+  margin-top: 60px;
+  color: #51586a;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 4rem; /* 166.667% */
+}
+.review-container .reviewer {
+  margin-top: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 16px;
+}
+.review-container .reviewer-name {
+  color: #080415;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 4rem; /* 133.333% */
+}
+.review-container .reviewer-workplace {
+  color: #51586a;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.9rem; /* 181.25% */
+}
+.review-dots {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 15px;
+}
+.review-dots .dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: rgba(8, 4, 21, 0.2);
+}
+.review-dots .dot-active {
+  width: 16x;
+  height: 16px;
+  background-color: #5d3bee;
+}
+
 /*# sourceMappingURL=main.css.map */
