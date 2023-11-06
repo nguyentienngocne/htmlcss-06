@@ -1,0 +1,45 @@
+@use "../base/variables" as var;
+
+.cta {
+    margin-top: 140px;
+
+    &-container {
+        position: relative;
+        max-width: 1330px;
+        margin: 0 auto;
+        padding: 68px 0;
+        // background-color: #fbfaff;
+        text-align: center;
+    }
+
+    &-heading {
+        color: var.$black-color;
+        font-size: 5.6rem;
+        font-weight: 500;
+        line-height: 6.6rem; /* 117.857% */
+    }
+
+    &-desc {
+        max-width: 570px;
+        margin: 20px auto 30px;
+    }
+
+    &-decor {
+        position: absolute;
+    }
+
+    .decor-01 {
+        bottom: 0;
+        left: 0;
+    }
+
+    .decor-02 {
+        top: 0;
+        left: 250px;
+    }
+
+    .decor-03 {
+        top: 0;
+        right: 0;
+    }
+}
