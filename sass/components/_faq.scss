@@ -17,6 +17,7 @@
 
     &-item {
         margin-top: 80px;
+        padding-left: 10px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -25,6 +26,7 @@
     }
 
     &-title {
+        margin-bottom: 33px;
         color: var.$black-color;
         font-size: 3.2rem;
         font-weight: 500;
@@ -53,6 +55,7 @@
 
         .faq-title {
             color: var.$primary-color;
+            margin-bottom: 0;
         }
 
         .item-right {

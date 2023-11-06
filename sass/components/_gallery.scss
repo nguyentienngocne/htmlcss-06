@@ -1,0 +1,35 @@
+@use "../base/variables" as var;
+
+.gallery {
+    margin-top: 160px;
+
+    &-content {
+        text-align: center;
+    }
+
+    &-heading {
+        color: var.$black-color;
+        font-size: 5.6rem;
+        font-weight: 500;
+        line-height: 6.6rem; /* 117.857% */
+    }
+
+    &-desc {
+        max-width: 528px;
+        margin: 20px auto 30px;
+    }
+
+    &-title {
+        color: var.$primary-color;
+        font-size: 3.2rem;
+        font-weight: 500;
+        line-height: 4rem; /* 125% */
+        text-decoration-line: underline;
+    }
+
+    &-media {
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

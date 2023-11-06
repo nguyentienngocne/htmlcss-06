@@ -1450,6 +1450,7 @@ button {
 }
 .faq-item {
   margin-top: 80px;
+  padding-left: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1457,6 +1458,7 @@ button {
   color: #080415;
 }
 .faq-title {
+  margin-bottom: 33px;
   color: #080415;
   font-size: 3.2rem;
   font-weight: 500;
@@ -1481,9 +1483,39 @@ button {
 }
 .faq .faq-item--check .faq-title {
   color: #5d3bee;
+  margin-bottom: 0;
 }
 .faq .faq-item--check .item-right {
   border-color: rgba(93, 59, 238, 0.2);
+}
+
+.gallery {
+  margin-top: 160px;
+}
+.gallery-content {
+  text-align: center;
+}
+.gallery-heading {
+  color: #080415;
+  font-size: 5.6rem;
+  font-weight: 500;
+  line-height: 6.6rem; /* 117.857% */
+}
+.gallery-desc {
+  max-width: 528px;
+  margin: 20px auto 30px;
+}
+.gallery-title {
+  color: #5d3bee;
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 4rem; /* 125% */
+  text-decoration-line: underline;
+}
+.gallery-media {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 /*# sourceMappingURL=main.css.map */
